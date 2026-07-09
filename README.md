@@ -18,8 +18,8 @@
     │  o o o           ~/zebel -- zsh      │
     ├──────────────────────────────────────┤   - Contact --------------------------------------------
     │  $ npm run startup                   │   - Email .............................. jake@zebel.io
-    │  > shiraz-api   ready on :5002       │   - GitHub ................................ @JakeHildy
-    │  > tehran-ui    ready on :3000       │
+    │  > api   ready on :5002              │   - GitHub ................................ @JakeHildy
+    │  > ui    ready on :3000              │
     │  > prisma       16 models synced     │   - GitHub Stats ---------------------------------------
     │                                      │   - Repos ............................ 78  |  Stars: 3
     │  $ git commit -m "ship it"           │   - Followers ................... 17  |  Following: 18
