@@ -1,16 +1,32 @@
-## Hi there 👋
-
-<!--
-**JakeHildy/JakeHildy** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```text
+                   ..:+++=.                 jacob@zebel ------------------------------------------
+                :*@@@@@@@@#==.
+              .*@@@@@@@@@@@@@@+.            - OS ........................... macOS (Apple Silicon)
+             .%@@@@@@@@%##%@@@@@-           - Uptime .................................... 34 years
+             *@@@@@#*=--:::=#@@@@-          - Host ................................... Zebel, Inc.
+             #@@@%*=-:-::...:*@@@#          - Kernel ........................... Software Engineer
+             @@%#++=---:......+@@#.         - Shell .......................................... zsh
+            .@*#*++=--::.......+%%.         - IDE ........................... Claude Code, VS Code
+            -#*%**+=--::::.....-#@:
+            =#%%#*+==--::......-+%=         - Languages.Programming .. JavaScript, C#, Python, SQL
+            -#%%#*====-.........=#+         - Languages.Runtime ....................... Node.js 22
+            :#%%*+=-===+*+=-:...=*+.        - Languages.Markup ............. HTML, CSS, JSON, YAML
+            .##%#**===+#%#=-:...== .-       - Languages.Real ............................. English
+             +%%%#@@*..*%%*+-...-=. :.
+            .#@%%#%@#..+%*=::...:--=:       - Stack.Backend .......... Fastify, Prisma, PostgreSQL
+            :%%@@@@@#:.:===-:...::.*:       - Stack.Frontend ....... React 19, Vite, Tailwind, SWR
+             ##%%@@@+:::::-:. ..::...       - Stack.Infra ............... Docker, Auth0, Cloud Run
+             ####%@%=:::-=-.....::..
+             +%%%@@%=::-:-*:....::.         - Hobbies.Software ..................... Side projects
+             .%%%@@@%+==-:-=::..::          - Hobbies.Outdoors ................... Mountain biking
+              +@%%@@@#*=::++.::.::          - Hobbies.Reading ....................... Sci-fi books
+               @%%#@%#+-:-+=.::::.
+               *@@*@@#*=-:.:.::::.          - Contact --------------------------------------------
+               :@@%@@#+=. ...::-:.          - Email ................................ jake@zebel.io
+                +@@@@#*=:..:.:--. .         - GitHub .................................. @JakeHildy
+                 +@@%%*+-::::--.  :%+
+                  +@%#++-:----:.  .%@=      - GitHub Stats ---------------------------------------
+.                 :@@@*+++==-:.    -@*-     - Repos .............................. 78  |  Stars: 3
+..               :@%@@@%#+=-:..    +@##-    - Followers ..................... 17  |  Following: 18
+                                            - Member Since .................................. 2020
+```
