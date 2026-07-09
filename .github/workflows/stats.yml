@@ -1,0 +1,42 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: "0 6 * * *"        # daily at 06:00 UTC
+  workflow_dispatch:            # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - profile/generate_readme.py
+      - .github/workflows/stats.yml
+
+permissions:
+  contents: write               # needed to push the refreshed README
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate README
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}   # classic PAT: repo + read:user
+          GH_USERNAME: ${{ github.repository_owner }}
+        run: python profile/generate_readme.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain README.md)" ]; then
+            git add README.md
+            git commit -m "chore: refresh profile stats [skip ci]"
+            git push
+          else
+            echo "No stat changes."
+          fi
