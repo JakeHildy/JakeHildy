@@ -50,7 +50,14 @@ def get_json(url, retries=6):
             raise
         if resp.status == 202:
             time.sleep(2 * (attempt + 1)); continue
-        return json.loads(resp.read().decode()), resp.headers.get("Link", "")
+        link = resp.headers.get("Link", "")
+        raw = resp.read().decode().strip()
+        if resp.status == 204 or not raw:   # empty repo / no content
+            return None, link
+        try:
+            return json.loads(raw), link
+        except json.JSONDecodeError:
+            return None, link
     return None, ""
 
 def get_all(url):
